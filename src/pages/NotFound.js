@@ -1,9 +1,11 @@
 import React from 'react'
+import SubscribeModal from '../components/SubscribeModal'
+import LoginModal from '../components/LoginModal'
 
 const NotFound = () => {
     return (
         <div>
-            NotFound
+            <SubscribeModal/>
         </div>
     )
 }
